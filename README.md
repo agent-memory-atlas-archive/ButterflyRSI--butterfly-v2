@@ -4,7 +4,7 @@
 
 Butterfly sits between you and a language model and keeps the agent's behavior stable over a long conversation, the way a thermostat keeps a room steady. It doesn't retrain the model or touch its weights. It reads each reply, scores it, and adjusts two pieces of state that shape the next reply: a set of learned behavior rules and a personality profile.
 
-This repo is the full reference implementation of the white paper by RJ Thomas ([`docs/Butterfly_White_Paper.rtf`](docs/Butterfly_White_Paper.rtf)): a Python engine, a FastAPI server, and a React UI that shows the loop working in real time.
+A Python engine, a FastAPI server, and a React UI that shows the loop working in real time.
 
 ## The three methods
 
